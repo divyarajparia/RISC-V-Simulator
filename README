@@ -8,14 +8,14 @@ The code can be broadly divided into 2 parts - assembler and simulator.
   ii) Implemented stack, which helps in keeping track of function execution.
 
 These are the commands, and what each of them does:
-1. load <filename>: ‬‭Loads the file containing RISC-V‬‭assembly code. (all registers and‬ ‭memory get initialized to the default value.)‬
-‭2.‬ ‭run:‬‭ Execute a given RISC-V code and update registers,‬‭ memory, etc. It runs the given ‭RISC-V code till the end.‬
-‭3.‬ ‭regs: ‬‭Prints the values of all registers in hex format.‬‭(64-bit registers).‬
-‭4.‬ ‭exit:‬‭ Exits the simulator and prints a meaningful message ‬‭to gracefully exit the program.‬‬
-‭5. ‭mem <addr> <count>:‬‭Print‬‭s count ‬‭memory locations starting‬ ‭from address ‬‭addr ‬‭in the ‭data section. (Little Endian format).‬
-‭6.‬ ‭step:‬‭ Runs one instruction and prints the “Executed‬‭<instruction>; PC=<address>”‬‭
-‭7.‬ ‭show-stack:‬‭ Prints the stack information, and the‬ ‭line elements are pushed onto and ‭popped from the stack frame. The stack frame is only updated on function invocations.
-‭8.‬ ‭break‬‭<line>: ‬‭Sets a mark to stop the code execution ‬‭once the line is reached,‬ ‭preserving registers and memory state.‬
-‭9.‬ ‭del break <line>:‬‭ Deletes the breakpoint at the specified‬‭ line.
+1. load <filename>: Loads the file containing RISC-V assembly code. (all registers and memory get initialized to the default value.)
+2.run: Execute a given RISC-V code and update registers, memory, etc. It runs the given RISC-V code till the end.
+3.regs: Prints the values of all registers in hex format.(64-bit registers).
+4.exit: Exits the simulator and prints a meaningful message to gracefully exit the program.
+5.mem <addr> <count>:Prints count memory locations starting from address addr in the data section. (Little Endian format).
+6. step: Runs one instruction and prints the “Executed <instruction>; PC=<address>”
+7. show-stack: Prints the stack information, and the line elements are pushed onto and popped from the stack frame. The stack frame is only updated on function invocations.
+8. break<line>: Sets a mark to stop the code execution once the line is reached, preserving registers and memory state.
+9. del break <line>: Deletes the breakpoint at the specified line.
 
 
