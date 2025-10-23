@@ -50,7 +50,7 @@ The implementation follows the **RV64I base integer instruction set** with suppo
 
 - **Course**: Computer Architecture (CS2323), Lab 3 & 4
 - **Institution**: IIT Hyderabad
-- **Students**: Ahmik Virani (ES22BTECH11001), Divya Rajparia (ES22BTECH11013)
+- **Students**: Divya Rajparia (ES22BTECH11013), Ahmik Virani (ES22BTECH11001)
 
 ---
 
